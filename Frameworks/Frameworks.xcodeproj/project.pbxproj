@@ -21,7 +21,7 @@
 		04DD9E271B7A307900FFF578 /* SPRequestResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD9E241B7A307900FFF578 /* SPRequestResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		04DD9E281B7A307900FFF578 /* SPRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9E251B7A307900FFF578 /* SPRequestResponse.m */; };
 		04E8DE6A1BB0092800FC60A4 /* SPSelfDescribingJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E8DE691BB0092800FC60A4 /* SPSelfDescribingJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04E8DE6C1BB0092C00FC60A4 /* SPSelfDescribingJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8DE6B1BB0092C00FC60A4 /* SPSelfDescribingJson.m */; settings = {ASSET_TAGS = (); }; };
+		04E8DE6C1BB0092C00FC60A4 /* SPSelfDescribingJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8DE6B1BB0092C00FC60A4 /* SPSelfDescribingJson.m */; };
 		462FD4DE1B15C76500296A38 /* SnowplowTracker-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 462FD4DD1B15C76500296A38 /* SnowplowTracker-Info.plist */; };
 		462FD4EF1B15CA8A00296A38 /* Snowplow-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4E71B15CA8A00296A38 /* Snowplow-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		462FD4F01B15CA8A00296A38 /* Snowplow.h in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4E81B15CA8A00296A38 /* Snowplow.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +34,22 @@
 		462FD4FF1B15CABE00296A38 /* SPPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 462FD4F91B15CABE00296A38 /* SPPayload.m */; };
 		462FD5001B15CABE00296A38 /* SPTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 462FD4FA1B15CABE00296A38 /* SPTracker.m */; };
 		462FD5011B15CABE00296A38 /* SPUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 462FD4FB1B15CABE00296A38 /* SPUtilities.m */; };
+		47A4C95A1FE7F4A8003EBA2E /* SnowplowTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A4C9581FE7F4A8003EBA2E /* SnowplowTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C95E1FE7F5CA003EBA2E /* Snowplow.h in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4E81B15CA8A00296A38 /* Snowplow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C95F1FE7F5CA003EBA2E /* SPTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4EC1B15CA8A00296A38 /* SPTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9601FE7F5CA003EBA2E /* SPEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4E91B15CA8A00296A38 /* SPEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9611FE7F5CA003EBA2E /* SPSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 041B60A51B84C0D500A1EBCB /* SPSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9621FE7F5CA003EBA2E /* SPSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 043EC5E21B8F050900294081 /* SPSession.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		47A4C9631FE7F5CA003EBA2E /* SPPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4EB1B15CA8A00296A38 /* SPPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9641FE7F5CA003EBA2E /* SPSelfDescribingJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E8DE691BB0092800FC60A4 /* SPSelfDescribingJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9651FE7F5CA003EBA2E /* SPEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 462FD4EA1B15CA8A00296A38 /* SPEventStore.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		47A4C9661FE7F5CA003EBA2E /* SPUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04921CAC1BAA986D009E221E /* SPUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9671FE7F5CA003EBA2E /* SPRequestResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD9E241B7A307900FFF578 /* SPRequestResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		47A4C9681FE7F5CA003EBA2E /* SPRequestCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD9E231B7A307900FFF578 /* SPRequestCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C9691FE7F5CA003EBA2E /* SPWeakTimerTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 044CA88F1B948639000EA3B1 /* SPWeakTimerTarget.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		47A4C96A1FE7F5CA003EBA2E /* SPEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0402EBF01BA94BCE006C8818 /* SPEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A4C96C1FE805AF003EBA2E /* libPods-lib-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A4C96E1FE805AF003EBA2E /* libPods-lib-FMDB.a */; };
+		47A4C96D1FE805AF003EBA2E /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A4C96F1FE805AF003EBA2E /* libReachability.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +82,11 @@
 		462FD4F91B15CABE00296A38 /* SPPayload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SPPayload.m; path = ../../Snowplow/SPPayload.m; sourceTree = "<group>"; };
 		462FD4FA1B15CABE00296A38 /* SPTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SPTracker.m; path = ../../Snowplow/SPTracker.m; sourceTree = "<group>"; };
 		462FD4FB1B15CABE00296A38 /* SPUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SPUtilities.m; path = ../../Snowplow/SPUtilities.m; sourceTree = "<group>"; };
+		47A4C9561FE7F4A8003EBA2E /* SnowplowTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowplowTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A4C9581FE7F4A8003EBA2E /* SnowplowTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowplowTracker.h; sourceTree = "<group>"; };
+		47A4C9591FE7F4A8003EBA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A4C96E1FE805AF003EBA2E /* libPods-lib-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-lib-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A4C96F1FE805AF003EBA2E /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +97,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47A4C9521FE7F4A8003EBA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A4C96C1FE805AF003EBA2E /* libPods-lib-FMDB.a in Frameworks */,
+				47A4C96D1FE805AF003EBA2E /* libReachability.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				462FD4D81B15C76500296A38 /* SnowplowTracker-iOS-Static */,
+				47A4C9571FE7F4A8003EBA2E /* SnowplowTracker */,
 				462FD4D71B15C76500296A38 /* Products */,
+				47A4C96B1FE805AF003EBA2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				462FD4D61B15C76500296A38 /* SnowplowTracker.framework */,
+				47A4C9561FE7F4A8003EBA2E /* SnowplowTracker.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +171,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47A4C9571FE7F4A8003EBA2E /* SnowplowTracker */ = {
+			isa = PBXGroup;
+			children = (
+				47A4C9581FE7F4A8003EBA2E /* SnowplowTracker.h */,
+				47A4C9591FE7F4A8003EBA2E /* Info.plist */,
+			);
+			path = SnowplowTracker;
+			sourceTree = "<group>";
+		};
+		47A4C96B1FE805AF003EBA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47A4C96E1FE805AF003EBA2E /* libPods-lib-FMDB.a */,
+				47A4C96F1FE805AF003EBA2E /* libReachability.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -159,6 +210,27 @@
 				462FD4F21B15CA8A00296A38 /* SPEventStore.h in Headers */,
 				044CA8911B948639000EA3B1 /* SPWeakTimerTarget.h in Headers */,
 				04DD9E271B7A307900FFF578 /* SPRequestResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A4C9531FE7F4A8003EBA2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A4C95A1FE7F4A8003EBA2E /* SnowplowTracker.h in Headers */,
+				47A4C95E1FE7F5CA003EBA2E /* Snowplow.h in Headers */,
+				47A4C95F1FE7F5CA003EBA2E /* SPTracker.h in Headers */,
+				47A4C9601FE7F5CA003EBA2E /* SPEmitter.h in Headers */,
+				47A4C9611FE7F5CA003EBA2E /* SPSubject.h in Headers */,
+				47A4C9631FE7F5CA003EBA2E /* SPPayload.h in Headers */,
+				47A4C9641FE7F5CA003EBA2E /* SPSelfDescribingJson.h in Headers */,
+				47A4C9661FE7F5CA003EBA2E /* SPUtilities.h in Headers */,
+				47A4C9681FE7F5CA003EBA2E /* SPRequestCallback.h in Headers */,
+				47A4C96A1FE7F5CA003EBA2E /* SPEvent.h in Headers */,
+				47A4C9621FE7F5CA003EBA2E /* SPSession.h in Headers */,
+				47A4C9651FE7F5CA003EBA2E /* SPEventStore.h in Headers */,
+				47A4C9691FE7F5CA003EBA2E /* SPWeakTimerTarget.h in Headers */,
+				47A4C9671FE7F5CA003EBA2E /* SPRequestResponse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +256,24 @@
 			productReference = 462FD4D61B15C76500296A38 /* SnowplowTracker.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
+		47A4C9551FE7F4A8003EBA2E /* SnowplowTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A4C95D1FE7F4A8003EBA2E /* Build configuration list for PBXNativeTarget "SnowplowTracker" */;
+			buildPhases = (
+				47A4C9511FE7F4A8003EBA2E /* Sources */,
+				47A4C9521FE7F4A8003EBA2E /* Frameworks */,
+				47A4C9531FE7F4A8003EBA2E /* Headers */,
+				47A4C9541FE7F4A8003EBA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowplowTracker;
+			productName = SnowplowTracker;
+			productReference = 47A4C9561FE7F4A8003EBA2E /* SnowplowTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,6 +284,11 @@
 				TargetAttributes = {
 					462FD4D51B15C76500296A38 = {
 						CreatedOnToolsVersion = 6.3.2;
+					};
+					47A4C9551FE7F4A8003EBA2E = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = TGZW3NA5J5;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -210,6 +305,7 @@
 			projectRoot = "";
 			targets = (
 				462FD4D51B15C76500296A38 /* SnowplowTracker-iOS-Static */,
+				47A4C9551FE7F4A8003EBA2E /* SnowplowTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				462FD4DE1B15C76500296A38 /* SnowplowTracker-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A4C9541FE7F4A8003EBA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +362,13 @@
 				04DD9E281B7A307900FFF578 /* SPRequestResponse.m in Sources */,
 				462FD5011B15CABE00296A38 /* SPUtilities.m in Sources */,
 				044CA8921B948639000EA3B1 /* SPWeakTimerTarget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A4C9511FE7F4A8003EBA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +512,142 @@
 			};
 			name = Release;
 		};
+		47A4C95B1FE7F4A8003EBA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TGZW3NA5J5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SnowplowTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brainbow.SnowplowTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47A4C95C1FE7F4A8003EBA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TGZW3NA5J5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SnowplowTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brainbow.SnowplowTracker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -419,6 +665,15 @@
 			buildConfigurations = (
 				462FD4E41B15C76500296A38 /* Debug */,
 				462FD4E51B15C76500296A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A4C95D1FE7F4A8003EBA2E /* Build configuration list for PBXNativeTarget "SnowplowTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A4C95B1FE7F4A8003EBA2E /* Debug */,
+				47A4C95C1FE7F4A8003EBA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
