@@ -48,8 +48,7 @@
 		47A4C9681FE7F5CA003EBA2E /* SPRequestCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD9E231B7A307900FFF578 /* SPRequestCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47A4C9691FE7F5CA003EBA2E /* SPWeakTimerTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 044CA88F1B948639000EA3B1 /* SPWeakTimerTarget.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47A4C96A1FE7F5CA003EBA2E /* SPEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0402EBF01BA94BCE006C8818 /* SPEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47A4C96C1FE805AF003EBA2E /* libPods-lib-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A4C96E1FE805AF003EBA2E /* libPods-lib-FMDB.a */; };
-		47A4C96D1FE805AF003EBA2E /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A4C96F1FE805AF003EBA2E /* libReachability.a */; };
+		47A4C9811FE809AA003EBA2E /* libSnowplow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A4C9821FE809AA003EBA2E /* libSnowplow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +86,7 @@
 		47A4C9591FE7F4A8003EBA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A4C96E1FE805AF003EBA2E /* libPods-lib-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-lib-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A4C96F1FE805AF003EBA2E /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A4C9821FE809AA003EBA2E /* libSnowplow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSnowplow.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47A4C96C1FE805AF003EBA2E /* libPods-lib-FMDB.a in Frameworks */,
-				47A4C96D1FE805AF003EBA2E /* libReachability.a in Frameworks */,
+				47A4C9811FE809AA003EBA2E /* libSnowplow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +182,7 @@
 		47A4C96B1FE805AF003EBA2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47A4C9821FE809AA003EBA2E /* libSnowplow.a */,
 				47A4C96E1FE805AF003EBA2E /* libPods-lib-FMDB.a */,
 				47A4C96F1FE805AF003EBA2E /* libReachability.a */,
 			);
